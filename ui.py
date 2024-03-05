@@ -1,9 +1,9 @@
 def obtener_parametros():
-    departamento = input("Ingrese el nombre del departamento: ")
-    municipio = input("Ingrese el nombre del municipio: ")
-    cultivo = input("Ingrese el nombre del cultivo: ")
+    dep = input("Ingrese el nombre del departamento: ")
+    mun = input("Ingrese el nombre del municipio: ")
+    cult = input("Ingrese el nombre del cultivo: ")
     limit = int(input("Ingrese el número de registros a consultar: "))
-    return departamento, municipio, cultivo, limit
+    return dep, mun, cult, limit
 
 def mostrar_resultados(tabla, mediana_variables_edaficas):
     print("Tabla de resultados:")
